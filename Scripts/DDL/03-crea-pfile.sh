@@ -4,7 +4,7 @@
 # @Descripcion Creación de un PFILE
 
 echo "1. Creando un archivo de parámetros básico"
-export ORACLE_SID=CEPROYSA
+export ORACLE_SID=CESAPROY
 pfile=$ORACLE_HOME/dbs/init${ORACLE_SID}.ora
 
 if [ -f "${pfile}" ]; then
@@ -13,11 +13,11 @@ fi;
 
 echo \
 "db_name='${ORACLE_SID}'
-memory_target=768M
+memory_target=1024M
 control_files=(
-/unam-bda/d14/ctrl_files/${ORACLE_SID^^}/control01.ctl,
-/unam-bda/d15/ctrl_files/${ORACLE_SID^^}/control02.ctl,
-/unam-bda/d16/ctrl_files/${ORACLE_SID^^}/control03.ctl
+/unam-bda/d14/ctrl_files_redo/${ORACLE_SID^^}/control01.ctl,
+/unam-bda/d15/ctrl_files_redo/${ORACLE_SID^^}/control02.ctl,
+/unam-bda/d16/ctrl_files_redo/${ORACLE_SID^^}/control03.ctl
 )" >$pfile
 
 echo "Listo"

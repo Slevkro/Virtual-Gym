@@ -3,9 +3,9 @@ echo "CREANDO DISPOSITIVOS CON LOOP DEVICES"
 cd /unam-bda/disk-images
 
 echo "CREANDO DISK1.IMG"
-dd if=/dev/zero of=disk14.img bs=700M count=10
-dd if=/dev/zero of=disk15.img bs=700M count=10
-dd if=/dev/zero of=disk16.img bs=700M count=10
+dd if=/dev/zero of=disk14.img bs=300M count=10
+dd if=/dev/zero of=disk15.img bs=300M count=10
+dd if=/dev/zero of=disk16.img bs=300M count=10
 
 echo "MOSTRANDO LA CREACION DE LOS ARCHIVOS"
 du -sh disk*.img

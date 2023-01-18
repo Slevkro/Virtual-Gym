@@ -3,7 +3,7 @@
 -- @Descripcion Creación de la base de datos
 
 Prompt Conectando como Sys
-connect sys/1q2w3e4r as sysdba
+connect sys/hola1234* as sysdba
 
 Prompt Iniciando la instancia en nomount
 startup nomount

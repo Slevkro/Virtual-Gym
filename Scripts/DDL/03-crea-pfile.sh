@@ -4,7 +4,7 @@
 # @Descripcion Creación de un PFILE
 
 echo "1. Creando un archivo de parámetros básico"
-export ORACLE_SID=CESAPROY
+export ORACLE_SID=cesaproy
 pfile=$ORACLE_HOME/dbs/init${ORACLE_SID}.ora
 
 if [ -f "${pfile}" ]; then

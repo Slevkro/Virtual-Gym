@@ -12,7 +12,7 @@ whenever sqlerror exit rollback;
 
 Prompt Creacion de la base de datos
 
-create database casaproy
+create database cesaproy
   user sys identified by systemgym
   user system identified by systemgym
   logfile group 1 (

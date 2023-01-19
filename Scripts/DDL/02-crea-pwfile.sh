@@ -1,5 +1,5 @@
 #/bin/bash
-#@Autor: Brandon Cervantes Rubí
+#@Autor: Brandon Cervantes Rubí, Josmar Sandoval
 #@Fecha creación: 17/08/2022
 #@Descripción: Creacion del archivo de passwords
 

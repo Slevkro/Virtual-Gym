@@ -1,4 +1,4 @@
--- @Autor Brandon Cervantes
+-- @Autor Brandon Cervantes, Josmar Sandoval
 -- @Fecha 18/09/2022
 -- @Descripcion Creación de la base de datos
 

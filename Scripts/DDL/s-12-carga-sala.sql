@@ -1,3 +1,4 @@
+connect gimnasio_usr/gimnasio123;
 insert into SALA (SALA_ID, CLAVE, NOMBRE, CAPACIDAD, RESPONSABLE, GIMNASIO_ID) values (1, '5LE', 'Desirae', 70, 137, 55);
 insert into SALA (SALA_ID, CLAVE, NOMBRE, CAPACIDAD, RESPONSABLE, GIMNASIO_ID) values (2, '3LE', 'Noami', 6, 87, 75);
 insert into SALA (SALA_ID, CLAVE, NOMBRE, CAPACIDAD, RESPONSABLE, GIMNASIO_ID) values (3, '9YR', 'Lorry', 43, 161, 176);

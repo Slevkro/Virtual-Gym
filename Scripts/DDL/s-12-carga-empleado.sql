@@ -1,3 +1,4 @@
+connect gimnasio_usr/gimnasio123;
 insert into EMPLEADO (empleado_id, tipo_empleado, email, nombre, ap_paterno, ap_materno, fecha_nacimiento, curp, no_empleado, puesto_id) values (1, 'I', 'lsexti0@sfgate.com', 'Laney', 'Zini', 'Sexti', '18-Apr-1989', 'ZISL19890418108410', 6417, 6);
 insert into EMPLEADO (empleado_id, tipo_empleado, email, nombre, ap_paterno, ap_materno, fecha_nacimiento, curp, no_empleado, puesto_id) values (2, 'I', 'zfernyhough1@is.gd', 'Zelma', 'Lenglet', 'Fernyhough', '18-Jan-1997', 'LEFZ19970118438500', 5590, 4);
 insert into EMPLEADO (empleado_id, tipo_empleado, email, nombre, ap_paterno, ap_materno, fecha_nacimiento, curp, no_empleado, puesto_id) values (3, 'A', 'pfessier2@dagondesign.com', 'Perry', 'Wawer', 'Fessier', '14-Apr-1981', 'WAFP19810414591287', 8865, 2);

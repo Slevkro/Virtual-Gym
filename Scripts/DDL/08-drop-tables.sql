@@ -25,4 +25,3 @@ drop table CLIENTE cascade constraints; --
 drop table MEDIDA cascade constraints; --
 drop table CLIENTE_GIMNASIO cascade constraints; --*
 drop table CREDENCIAL cascade constraints; --
-

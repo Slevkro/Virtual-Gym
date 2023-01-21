@@ -1,3 +1,4 @@
+connect gimnasio_usr/gimnasio123;
 insert into ADMINISTRADOR (EMPLEADO_ID, USERNAME, PASSWORD, DESCRIPCION_ROL, CERTIFICADO) values (1, 'dcopins0', 'cLcVYk', 'hru90lp1apr3man5wzla27m3fxkq8znwbfqawoda7nlioohm54oklk8qczzs45gh4v3u99nps3nq1ucjd01rvi637sluc', empty_blob());
 insert into ADMINISTRADOR (EMPLEADO_ID, USERNAME, PASSWORD, DESCRIPCION_ROL, CERTIFICADO) values (2, 'jivashnyov1', 'cp2ZRw3t5ew9', '8yctc2f6piayuitgsl0i1a10d6sysyc6rsgdecdytv7m2psup51k0svljhlr5lws763y9lordv2ht0cy4fbhsa96qgrnh', empty_blob());
 insert into ADMINISTRADOR (EMPLEADO_ID, USERNAME, PASSWORD, DESCRIPCION_ROL, CERTIFICADO) values (3, 'mhammerberger2', '9TWgUD65R', 'd3kr93kprvllbi0sqhu3cmz7cwnrw0kb36a5uctgfeqcxzmp28w7iu8lp5a2b6q6mc0aw4cbaxxvhw685oz5c1vnfmmxs', empty_blob());

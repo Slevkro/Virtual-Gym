@@ -40,6 +40,11 @@ mkdir -p ctrl_files_redo/CESAPROY/
 chown -R oracle:oinstall ctrl_files_redo
 chmod -R 750 ctrl_files_redo
 
+cd /unam-bda 
+mkdir -p fast_reco_area/CESAPROY
+chown -R oracle:oinstall fast_reco_area
+chmod -R 750 fast_reco_area
+
 echo "Mostrando directorio de data files"
 ls -l /unam-bda/d11/
 ls -l /unam-bda/d12/
@@ -47,3 +52,4 @@ ls -l /unam-bda/d13/
 
 echo "Mostrando directorios para control files y Redo Logs"
 ls -l /unam-bda/d1*/ctrl_files_redo/
+

@@ -23,3 +23,10 @@ create user cliente_usr identified by cliente123
   quota unlimited on cliente_ts;
 
 grant create session, create table, create any index to cliente_usr;
+
+Prompt Creando usuario para el modulo de Cliente 
+drop user backup_usr cascade;
+create user backup_usr identified by backup123 
+  quota unlimited on users;
+
+grant sysbackup to backup_usr;

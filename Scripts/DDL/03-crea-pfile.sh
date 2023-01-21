@@ -16,8 +16,8 @@ echo \
 memory_target=1024M
 control_files=(
 /unam-bda/d14/ctrl_files_redo/${ORACLE_SID^^}/control01.ctl,
-/unam-bda/d15/ctrl_files_redo/${ORACLE_SID^^}/control02.ctl,
-/unam-bda/d16/ctrl_files_redo/${ORACLE_SID^^}/control03.ctl
+/unam-bda/fast_reco_area/CESAPROY/control02.ctl,
+/unam-bda/d15/ctrl_files_redo/${ORACLE_SID^^}/control03.ctl
 )" >$pfile
 
 echo "Listo"

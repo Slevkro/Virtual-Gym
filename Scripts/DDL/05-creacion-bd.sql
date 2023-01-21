@@ -26,9 +26,9 @@ blocksize 512,
     '/unam-bda/d16/ctrl_files_redo/CESAPROY/redo02c.log') size 50m
 blocksize 512,
   group 3 (
-    '/unam-bda/d14/ctrl_files_redo/CESAPROY/redo03a.log',
-    '/unam-bda/d15/ctrl_files_redo/CESAPROY/redo03b.log',
-    '/unam-bda/d16/ctrl_files_redo/CESAPROY/redo03c.log') size 50m
+    '/unam-bda/fast_reco_area/CESAPROY/redo03a.log',
+    '/unam-bda/fast_reco_area/CESAPROY/redo03b.log',
+    '/unam-bda/fast_reco_area/CESAPROY/redo03c.log') size 50m
 blocksize 512
   maxloghistory 1
   maxlogfiles 16

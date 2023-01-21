@@ -7,7 +7,7 @@ connect sys/systemgym as sysdba
 
 Prompt Cambiando parametros para la FRA
 
-alter system set db_recovery_file_dest_size = 2500m scope = both;
+alter system set db_recovery_file_dest_size = 5000m scope = both;
 alter system set db_recovery_file_dest = '/unam-bda/fast_reco_area/CESAPROY/' scope = both;
 alter system set db_flashback_retention_target = 2880 scope = both;
 

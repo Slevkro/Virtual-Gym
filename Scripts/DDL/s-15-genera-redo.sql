@@ -61,7 +61,7 @@ begin
     --v_count := v_count + 1;
   end loop;
 
-  dbms_output.put_line('Registros insertados: '||v_count);
+  dbms_output.put_line('Registros insertados en CLIENTE');
   
 end;
 /
@@ -84,3 +84,5 @@ begin
   dbms_output.put_line('Registros modificados en CLIENTE');
 end;
 /
+
+CONNECT sys/systemgym as sysdba

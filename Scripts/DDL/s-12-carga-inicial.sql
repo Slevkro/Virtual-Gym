@@ -8,14 +8,25 @@ CONNECT GIMNASIO_USR/gimnasio123
 @s-12-carga-admin-instr.sql
 @s-12-carga-gim-mul.sql
 
---CONNECT CLIENTE_USR/cliente123
---@s-12-carga-cliente.sql
---@s-12-carga-medida-sensor.sql
---@s-12-carga-credencial.sql
+--Shutdown para el backup
+--connect sys/systemgym as sysdba
+--Prompt startup mount;
+--shutdown immediate;
+--startup mount;
 
---CONNECT GIMNASIO_USR/gimnasio123
---@s-12-carga-sala.sql
 
---CONNECT CLIENTE_USR/cliente123
---@s-12-carga-sesion.sql
---@s-12-muchos-muchos.sql
+CONNECT CLIENTE_USR/cliente123
+@s-12-carga-cliente.sql
+@s-12-carga-medida-sensor.sql
+@s-12-carga-credencial.sql
+
+CONNECT GIMNASIO_USR/gimnasio123
+@s-12-carga-sala.sql
+
+CONNECT CLIENTE_USR/cliente123
+@s-12-carga-sesion.sql
+@s-12-muchos-muchos.sql
+
+connect sys/systemgym as sysdba
+shutdown abort;
+startup;

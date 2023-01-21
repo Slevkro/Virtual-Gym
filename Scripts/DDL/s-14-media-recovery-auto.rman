@@ -3,5 +3,15 @@ run{
 # @Fecha creación: 19/01/2023
 # @Descripción: Simulacion de un media recovery manual para el datafile 
 #               /unam-bda/d11/datafiles/CESAPROY/gimnasio_df_01.dbf
+# Agrega controlfile a la FRA
+# ] rman
+# RMAN> connect target "backup_usr@cesaproy as sysbackup"
+# list failure
+# advise failure
+
+   # restore and recover datafile
+   restore ( datafile 11 );
+   recover datafile 11;
+   sql 'alter database datafile 11 online';
 
 }

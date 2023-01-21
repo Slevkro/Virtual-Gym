@@ -1,3 +1,4 @@
+connect cliente_usr/cliente123;
 --Tabla Medida
 insert into MEDIDA (medida_id, fecha, peso, masa_corporal, estatura, cliente_id) values (1, '19-Dec-2020', 117.62, 6.8, 183, 2);
 insert into MEDIDA (medida_id, fecha, peso, masa_corporal, estatura, cliente_id) values (2, '21-Jun-2019', 112.58, 16.73, 209, 5);

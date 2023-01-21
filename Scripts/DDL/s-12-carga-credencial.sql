@@ -1,3 +1,4 @@
+connect cliente_usr/cliente123;
 insert into CREDENCIAL (credencial_id, folio, fecha_expedicion, vigencia, codigo_barras, cliente_id) values (1, 'S345800S', '05-Jul-2019', '23', empty_blob(), 1);
 insert into CREDENCIAL (credencial_id, folio, fecha_expedicion, vigencia, codigo_barras, cliente_id) values (2, 'T340380C', '22-Feb-2020', '25', empty_blob(), 2);
 insert into CREDENCIAL (credencial_id, folio, fecha_expedicion, vigencia, codigo_barras, cliente_id) values (3, 'X446364V', '13-Apr-2020', '26', empty_blob(), 3);

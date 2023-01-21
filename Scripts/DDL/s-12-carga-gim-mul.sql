@@ -1,3 +1,4 @@
+connect gimnasio_usr/gimnasio123;
 insert into GIMNASIO (GIMNASIO_ID, PAGINA_WEB, FOLIO, NOMBRE, DIRECCION, LATITUD, LONGITUD, TELEFONO, GERENTE) values (1, 'http://wunderground.com', 'HDMM2', 'Meadow Ridge', 'Tennyson', '49.04505', '70.31123', '0664867000', 1);
 insert into GIMNASIO (GIMNASIO_ID, PAGINA_WEB, FOLIO, NOMBRE, DIRECCION, LATITUD, LONGITUD, TELEFONO, GERENTE) values (2, 'https://free.fr', 'Q1SY8', 'Veith', 'Coleman', '24.47960', '58.23999', '1936119690', 2);
 insert into GIMNASIO (GIMNASIO_ID, PAGINA_WEB, FOLIO, NOMBRE, DIRECCION, LATITUD, LONGITUD, TELEFONO, GERENTE) values (3, 'https://naver.com', 'TEA0H', 'Troy', 'Mandrake', '70.67120', '34.43164', '7230416396', 3);

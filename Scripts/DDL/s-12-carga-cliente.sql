@@ -1,3 +1,4 @@
+connect cliente_usr/cliente123;
 insert into CLIENTE (cliente_id, nombre, ap_paterno, ap_materno, email, username, password, fecha_nacimiento, curp, foto, direccion) values (1, 'Barris', 'Andreev', 'McMennum', 'bmcmennum0@guardian.co.uk', 'bmcmennum0', 'iN636yh', '15-Aug-1997', 'ANMB19970815343553', empty_blob(), '544 South Park');
 insert into CLIENTE (cliente_id, nombre, ap_paterno, ap_materno, email, username, password, fecha_nacimiento, curp, foto, direccion) values (2, 'Bernette', 'Lammenga', 'Girk', 'bgirk1@dell.com', 'bgirk1', '0D9cRI', '04-Aug-1982', 'LAGB19820804469359', empty_blob(), '8 Mockingbird Point');
 insert into CLIENTE (cliente_id, nombre, ap_paterno, ap_materno, email, username, password, fecha_nacimiento, curp, foto, direccion) values (3, 'Nina', 'Lefever', 'Matissoff', 'nmatissoff2@cnbc.com', 'nmatissoff2', 'vMptAqFhwoLA', '07-Jun-1976', 'LEMN19760607332199', empty_blob(), '0289 Dakota Place');
